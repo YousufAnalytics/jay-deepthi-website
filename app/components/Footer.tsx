@@ -26,6 +26,12 @@ const services = [
 ];
 
 export default function Footer() {
+  const message =
+    "Hi Jay Deepthi Interiors, I visited your website and I'm interested in your services.";
+
+  const whatsappUrl = `https://wa.me/7842416166?text=${encodeURIComponent(
+    message,
+  )}`;
   return (
     <footer id="contact" className="border-t border-gray-200 bg-[#FAF8F5]">
       <div className="mx-auto max-w-7xl px-6 py-16">
@@ -46,7 +52,7 @@ export default function Footer() {
             </p>
 
             <a
-              href="https://wa.me/91XXXXXXXXXX"
+              href={whatsappUrl}
               target="_blank"
               className="mt-8 inline-flex items-center gap-3 rounded-full bg-[#7A0C1D] px-7 py-4 text-white transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
             >
