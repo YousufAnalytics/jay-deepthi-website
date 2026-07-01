@@ -24,3 +24,36 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f7f7f7;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #eabdc5;
+  border-radius: 999px;
+  border: 2px solid #f7f7f7;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #eabdc5;
+}
+
+/* Firefox */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #eabdc5 #f7f7f7;
+}
+
+.font-heading {
+    font-family: var(--font-playfair);
+}
+
+.font-body {
+    font-family: var(--font-manrope);
+}
