@@ -53,7 +53,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
           >
-            <h1 className="font-heading mt-6 text-6xl leading-tight text-[#222] lg:text-7xl">
+            <h1 className="font-heading mt-10 text-6xl leading-tight text-[#222] lg:text-7xl">
               Crafted for
               <br />
               Modern
