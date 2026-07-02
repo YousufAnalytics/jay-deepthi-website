@@ -44,7 +44,7 @@ export default function Hero() {
     <section className="relative overflow-hidden bg-[#FAF8F5]">
       {/* Decorative Circle */}
 
-      <div className="mx-auto flex min-h-[80vh] max-w-7xl items-center px-6">
+      <div className="mx-auto flex min-h-[calc(100vh-80px)] max-w-7xl items-center px-6">
         <div className="grid items-center gap-16 lg:grid-cols-2">
           {/* Left */}
 
