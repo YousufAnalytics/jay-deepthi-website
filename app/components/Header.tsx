@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Menu, MessageCircle } from "lucide-react";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
+import { BUSINESS } from "../config/business";
 
 const menu = [
   {
@@ -28,8 +29,8 @@ export default function Header() {
   const message =
     "Hi Jay Deepthi Interiors, I visited your website and I'm interested in your services.";
 
-  const whatsappUrl = `https://wa.me/7842416166?text=${encodeURIComponent(
-    message,
+  const whatsappUrl = `https://wa.me/${BUSINESS.whatsapp}?text=${encodeURIComponent(
+    `Hi ${BUSINESS.name}, I visited your website and would like to know more about your services.`,
   )}`;
 
   return (

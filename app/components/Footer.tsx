@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ArrowUpRight, Mail, MapPin, MessageCircle, Phone } from "lucide-react";
-
+import { BUSINESS } from "../config/business";
 const quickLinks = [
   {
     title: "Home",
@@ -29,8 +29,8 @@ export default function Footer() {
   const message =
     "Hi Jay Deepthi Interiors, I visited your website and I'm interested in your services.";
 
-  const whatsappUrl = `https://wa.me/7842416166?text=${encodeURIComponent(
-    message,
+  const whatsappUrl = `https://wa.me/${BUSINESS.whatsapp}?text=${encodeURIComponent(
+    `Hi ${BUSINESS.name}, I visited your website and would like to know more about your services.`,
   )}`;
   return (
     <footer id="contact" className="border-t border-gray-200 bg-[#FAF8F5]">
@@ -109,19 +109,19 @@ export default function Footer() {
                 <div className="flex gap-3">
                   <Phone className="mt-1 text-[#7A0C1D]" size={18} />
 
-                  <span className="text-gray-600">+91 XXXXX XXXXX</span>
+                  <span className="text-gray-600">{BUSINESS.phone}</span>
                 </div>
 
                 <div className="flex gap-3">
                   <Mail className="mt-1 text-[#7A0C1D]" size={18} />
 
-                  <span className="text-gray-600">info@example.com</span>
+                  <span className="text-gray-600">{BUSINESS.email}</span>
                 </div>
 
                 <div className="flex gap-3">
                   <MapPin className="mt-1 text-[#7A0C1D]" size={18} />
 
-                  <span className="text-gray-600">Hyderabad, Telangana</span>
+                  <span className="text-gray-600">{BUSINESS.address}</span>
                 </div>
               </div>
             </div>

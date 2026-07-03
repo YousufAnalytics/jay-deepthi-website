@@ -2,31 +2,30 @@
 
 import { Phone, Mail, MapPin, Clock, MessageCircle } from "lucide-react";
 import { motion } from "framer-motion";
+import { BUSINESS } from "../config/business";
 
 const contact = [
   {
     icon: Phone,
     title: "Phone",
-    value: "+91 98765 43210",
-    href: "tel:+919876543210",
+    value: `${BUSINESS.phone}`,
+    href: `tel:+${BUSINESS.phone}`,
   },
   {
     icon: Mail,
     title: "Email",
-    value: "info@jaydeepthiinteriors.com",
-    href: "mailto:info@jaydeepthiinteriors.com",
+    value: `${BUSINESS.email}`,
+    href: `mailto:${BUSINESS.email}`,
   },
   {
     icon: MapPin,
     title: "Location",
-    value: "Hyderabad, Telangana",
-    href: "#",
+    value: `${BUSINESS.address}`,
   },
   {
     icon: Clock,
     title: "Working Hours",
-    value: "Mon - Sat • 9 AM - 7 PM",
-    href: "#",
+    value: `${BUSINESS.workingHours}`,
   },
 ];
 
