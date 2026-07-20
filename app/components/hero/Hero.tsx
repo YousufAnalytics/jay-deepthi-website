@@ -29,7 +29,7 @@ export default function Hero() {
               Premium Interior Solutions
             </div>
 
-            <h1 className="mt-6 font-heading text-5xl leading-tight text-[#222] lg:text-7xl">
+            <h1 className="mt-6 font-playfair text-5xl font-semibold leading-[1.05] tracking-tight text-[#222] lg:text-7xl">
               Crafted for
               <br />
               Modern

@@ -57,3 +57,6 @@ html {
 .font-body {
     font-family: var(--font-manrope);
 }
+.font-playfair {
+  font-family: var(--font-playfair), serif;
+}
