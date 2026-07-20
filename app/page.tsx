@@ -9,9 +9,8 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <HomeSolutions />
-      <ProcessSection />
       <VideoShowcase />
+      <ProcessSection />
     </>
   );
 }

@@ -39,7 +39,7 @@ const steps = [
 
 export default function ProcessSection() {
   return (
-    <section className="bg-[#FAF8F5] py-16 md:py-24">
+    <section className="border-t border-gray-200 bg-[#FAF8F5] py-16 md:py-24">
       <div className="mx-auto max-w-7xl px-6">
         {/* Heading */}
 

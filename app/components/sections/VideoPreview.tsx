@@ -6,12 +6,10 @@ import { Play, X } from "lucide-react";
 const videos = [
   {
     id: 1,
-    title: "UPVC Window Installation",
     video: "/JD-video1.mp4",
   },
   {
     id: 2,
-    title: "Mesh Door Project",
     video: "/JD-video2.mp4",
   },
 ];
@@ -21,7 +19,7 @@ export default function VideoShowcase() {
 
   return (
     <>
-      <section className="bg-[#FAF8F5] py-24">
+      <section className="border-t border-gray-200 bg-[#FAF8F5] py-24">
         <div className="mx-auto max-w-7xl px-6">
           {/* Heading */}
           <div className="mx-auto max-w-3xl text-center">
@@ -45,7 +43,7 @@ export default function VideoShowcase() {
             {videos.map((item) => (
               <div
                 key={item.id}
-                className="group overflow-hidden rounded-3xl bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
+                className="group overflow-hidden rounded-lg bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
               >
                 <div className="relative aspect-video overflow-hidden">
                   {/* Preview */}
@@ -76,12 +74,6 @@ export default function VideoShowcase() {
                       />
                     </div>
                   </button>
-                </div>
-
-                <div className="p-6">
-                  <h3 className="text-xl font-semibold text-[#222]">
-                    {item.title}
-                  </h3>
                 </div>
               </div>
             ))}
