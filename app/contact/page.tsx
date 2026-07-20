@@ -93,6 +93,37 @@ export default function ContactPage() {
           })}
         </div>
       </section>
+
+      {/* Google Map */}
+      {/* Google Map */}
+      <section className="pb-20">
+        <div className="mx-auto max-w-5xl px-5 md:px-8">
+          <div className="mb-8 text-center">
+            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-[#500a14]">
+              Visit Us
+            </p>
+
+            <h2 className="mt-3 text-3xl font-bold text-[#222] md:text-4xl">
+              Find Our Showroom
+            </h2>
+
+            <p className="mx-auto mt-4 max-w-2xl text-gray-600">
+              Visit us to explore premium interior solutions and discuss your
+              dream project with our experts.
+            </p>
+          </div>
+
+          <div className="overflow-hidden rounded-3xl border border-[#500a14]/10 bg-white p-2 shadow-xl transition-shadow duration-300 hover:shadow-2xl">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3829.4398314002387!2d80.3857881!3d16.300455699999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4a754f4553c2d7%3A0x57d7fbff95c0a771!2sJay%20Deepthi%20Interiors!5e0!3m2!1sen!2sin!4v1784536997283!5m2!1sen!2sin"
+              className="h-[320px] w-full rounded-2xl md:h-[450px]"
+              loading="lazy"
+              allowFullScreen
+              referrerPolicy="strict-origin-when-cross-origin"
+            />
+          </div>
+        </div>
+      </section>
     </main>
   );
 }

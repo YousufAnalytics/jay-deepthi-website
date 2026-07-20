@@ -12,6 +12,18 @@ const videos = [
     id: 2,
     video: "/JD-video2.mp4",
   },
+  {
+    id: 3,
+    video: "/JD-video3.mp4",
+  },
+  {
+    id: 4,
+    video: "/JD-video4.mp4",
+  },
+  {
+    id: 5,
+    video: "/JD-video5.mp4",
+  },
 ];
 
 export default function VideoShowcase() {
