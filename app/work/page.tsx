@@ -11,6 +11,13 @@ const works = [
   "/upvc.jpg",
   "/singledoor.jpg",
   "/bedroom.jpg",
+  "/Grills.jpeg",
+  "/cupboard2.jpeg",
+  "/cupboard3.jpeg",
+  "/cupboard4.jpeg",
+  "/cupboards5.jpeg",
+  "/cupboards6.jpeg",
+  "/cupboard7.jpeg",
 ];
 
 export default function WorkPage() {
