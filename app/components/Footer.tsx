@@ -153,7 +153,14 @@ export default function Footer() {
 
           <p className="text-sm text-gray-500">
             Designed & Developed by{" "}
-            <span className="font-semibold text-[#7A0C1D]">DigiSoc</span>
+            <Link
+              href="https://digisoc.in"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium text-[#7A0C1D] hover:underline"
+            >
+              DigiSoc
+            </Link>
           </p>
         </div>
       </div>

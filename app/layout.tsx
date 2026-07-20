@@ -30,6 +30,9 @@ export const metadata: Metadata = {
   title: "Jay Deepthi Interiors",
   description:
     "Premium UPVC Windows, Mesh Doors, PVC Interiors & Aluminium Partitions",
+  icons: {
+    icon: "/icon.png",
+  },
 };
 
 export default function RootLayout({
